@@ -1,12 +1,20 @@
+<!--Susana Montero Gómez-->
+
 <body>
+<!--encabezado en un container-fluid para que esté 100% widht en todos los puntos de interrupción-->
   <header class="container-fluid bg-primary text-white">
+<!--intento sin éxito que el texto "header" respete la posición de la imagen del ejercicio-->
     <div class="row col-xs-12 col-sm-6 col-md-9 col-lg-9">
       <h1>header</h1>
     </div>
   </header>
 
+  <!--con "container" en el div padre utilizamos el sistema de cuadrícula predeterminado por Bootstrap para organizar la página, con text justify indicamos que el texto
+  de todo el div padre será justificado-->
 <div class="container text-justify">
   <section class="main row">
+    <!--utilizamos la cuadrícula predeterminada de Bootstrap para marcar cómo deseamos que sea la disposición de los div según el tamaño de la página-->
+    <!--defininmos tambíen el background y el color del texto-->
     <article class="col-xs-12 col-sm-6 col-md-9 col-lg-9 bg-secondary">
       <h3>Artículo</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus qui quod tempore cum ipsam. Sapiente soluta alias magni velit fugit corrupti ipsum laboriosam dolore ab molestias </p>
@@ -29,6 +37,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error omnis illo obcaecati, harum odit aut beatae vitae enim dicta deserunt amet commodi in mollitia. Culpa ad maiores soluta quod architecto similique? Delectus, natus similique. Animi nemo, minima, autem quam ut perferendis voluptatem eaque impedit, atque temporibus nam in a.</p>
       </div>
 
+    <!--mantenemos la disposición deseada aunque cambie el tamaño de la pàgina, no importa si un contenido es más alto que otro, con clearfix se mantendrá alinado-->
     <div class="clearfix visible-sm-block"></div>
 
     <div class="col-xs-12 col-sm-6 col-md-3 bg-primary text-white">
